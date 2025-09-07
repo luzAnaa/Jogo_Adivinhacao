@@ -19,9 +19,10 @@ else if (inserido != sorteado) {
             inserido = prompt("Tente um número menor:")
         }
     }
-}
-
-
-else if (inserido == sorteado) {
+    if (inserido == sorteado) {
     alert("Parabéns! Você acertou!")
 }
+}
+
+
+
